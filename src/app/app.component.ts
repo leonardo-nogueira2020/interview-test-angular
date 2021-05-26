@@ -13,6 +13,7 @@ import {
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
+  title = "nforms";
   public files: NgxFileDropEntry[] = [];
   public channels: any = [];
   public schedules: any = [];
